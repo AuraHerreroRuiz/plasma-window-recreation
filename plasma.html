@@ -8,16 +8,66 @@
         <main>
             <header>
                 <img src="icons/gpick.svg" alt="">
-                <p>Feren OS Dark (Coloured Titlebars) -- KColorSchemeEditor</p>
+                <p>Feren OS Dark (Coloured Titlebars) ⎯ KColorSchemeEditor</p>
                     <div class="window-buttons">
                         <img src="icons/go-down.svg" alt="">
                         <img src="icons/go-up.svg" alt="">
                         <img src="icons/window-close.svg" alt="">
                     </div>
-                </header>
-            <p>
-                
-            </p>
+            </header>
+            <article>
+                <nav>
+                    <div class="tab active">
+                        <p>Options</p>
+                    </div>
+                    <div class="tab inactive">
+                        <p>Colours</p>
+                    </div>
+                    <div class="tab inactive">
+                        <p>Disabled</p>
+                    </div>
+                    <div class="empty-tabs">
+                        
+                    </div>
+                </nav>
+                <section>
+                    <form class="checkboxes">
+                        <div>
+                            <input type="checkbox">
+                            <img src="icons/check-mark-svgrepo-com.svg">
+                            <label for="checkbox1">Apply effects to inactive windows</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" checked>
+                            <img src="icons/check-mark-svgrepo-com.svg">
+                            <label for="checkbox1">Use different colours for inactive selections</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" checked>
+                            <img src="icons/check-mark-svgrepo-com.svg">
+                            <label for="checkbox1">Allow accent color on active titlebars</label>
+                        </div>
+                        <div>
+                            <input type="checkbox"
+                            <img src="icons/check-mark-svgrepo-com.svg">
+                            <label for="checkbox1">Allow accent color on inactive titlebars</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" checked>
+                            <img src="icons/check-mark-svgrepo-com.svg">
+                            <label for="checkbox1">Apply effects to inactive windows</label>
+                        </div>
+                    </form>
+                    <form class="slider">
+                        <p class="slider-header">Shading</p>
+                        <p class="slider-min">Minimum</p>
+                        <p class="slider-max">Maximum</p>
+                        <p class="slider-label">Contrast</p>
+                        <input type="range" min="1" max="100" value="40">
+                        <hr>
+                    </form>
+                </section>
+            </article>
             <footer>
                 <div class="button active">
                     <img src="icons/window-close.svg" alt="">
